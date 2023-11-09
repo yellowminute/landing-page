@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -45,4 +46,26 @@ li {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf9;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder {
+    color: #e5e7eb;
+    background-color: gray;
+    width: 600px;
+}
+
+.hero {
+    display: flex;
+
 }
