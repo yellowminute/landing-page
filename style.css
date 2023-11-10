@@ -6,11 +6,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
-.header {
+.header-section {
     background-color: #1f2937;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -22,26 +24,29 @@ body {
     align-items: center;
 }
 
-.header .logo {
+.header-section .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
 }
 
-.header ul {
+.header-section ul {
     list-style: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    margin-right: 32px;
+    margin-left: 32px;
 }
 
-.header a {
+.header-section a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
+
 
 .main-text {
     font-size: 48px;
@@ -52,11 +57,13 @@ li {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    flex-wrap: wrap;
 }
 
 .placeholder {
     color: #e5e7eb;
     background-color: gray;
     width: 600px;
+    flex-grow: 1;
 }
 
