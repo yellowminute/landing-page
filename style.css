@@ -93,3 +93,38 @@ button {
     gap: 16px;
     margin-right: 52px;
 }
+
+.information {
+    flex: 1;   
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inf-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    flex: 1;
+}
+
+.img {
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
