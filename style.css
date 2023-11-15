@@ -6,7 +6,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -17,13 +16,13 @@ body {
     align-items: center;
     flex: 1;
     background-color: #1f2937;
-    gap: 100px;
     padding-top: 32px;
+    gap: 50px;
 }
 
 
 .header, .container {
-    max-width: 1200px;
+    width: 65%;
     display: flex;
 }
 
@@ -32,7 +31,6 @@ body {
 }
 
 .header {
-    width: 100%;
     justify-content: space-between;
 }
 
@@ -40,13 +38,13 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
-    /* flex: 1; */
+    flex: 1;
 }
 
 .header ul {
     list-style: none;
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     padding: 0;
     margin: 0;
 }
